@@ -3,6 +3,7 @@
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .mobile-bar {
@@ -35,7 +36,6 @@
 }
 
 .my-logo {
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: 1.3rem;
@@ -66,31 +66,45 @@
 .greet {
   display: flex;
   justify-content: center;
-  margin-top: 110px;
-  font-size: 34px;
-  font-weight: bolder;
-  color: rgb(7, 2, 98);
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: rgb(0, 9, 41);
   text-shadow: steelblue;
 }
 
 .intro {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: lighter;
-  color: rgb(4, 0, 84);
+  margin-top: 10px;
+  margin-left: -40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.social-text {
+  color: #6070ff;
+  font-size: 24px;
 }
 
 .social-icon {
+  margin-left: -15px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   font-size: 30px;
 }
 
 .twitter-handle {
   padding: 0 15px;
-  margin-right: 12px;
+  margin-right: 3px;
 }
 
 .twitter-handle:hover {
