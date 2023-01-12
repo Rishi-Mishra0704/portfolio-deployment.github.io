@@ -37,7 +37,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project is build purely by html and vanilla css
+> This project is build purely by html and vanilla css.
 
 <details>
   <summary>Client</summary>
