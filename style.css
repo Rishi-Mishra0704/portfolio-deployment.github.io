@@ -338,7 +338,7 @@ body {
 }
 
 .languages {
-  color: #344563;
+  color: black;
   display: flex;
   justify-content: space-between;
   margin: 12px 15px;
@@ -403,7 +403,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  color: rgb(0, 9, 41);
+  color: black;
 }
 
 .skill_txt {
@@ -416,6 +416,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 38px;
-  color: rgb(0, 9, 41);
+  color: black;
   justify-content: space-between;
 }
