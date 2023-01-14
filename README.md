@@ -31,7 +31,7 @@
 
 > Description
 
-**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles
+**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .
 
 ## 🛠 Built With <a name="built-with">HTMLand CSS</a>
 
