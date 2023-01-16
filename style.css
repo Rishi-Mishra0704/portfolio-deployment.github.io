@@ -208,9 +208,9 @@ body {
 }
 
 .lang-list {
-  display: flex;
+  /*display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;*/
   width: 82%;
   margin-left: -5%;
   padding: 4px 12px;
@@ -225,6 +225,7 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
+  float: left;
 }
 
 .Css {
@@ -236,17 +237,19 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
+  float: left;
 }
 
 .js {
   margin: 12px 2px;
   padding: 5px 10px;
-  font-size: 20px;
+  font-size: 15px;
   color: #6070ff;
   background-color: #ebebff;
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
+  float: left;
 }
 
 .button {
