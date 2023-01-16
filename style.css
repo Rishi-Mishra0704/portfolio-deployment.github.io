@@ -208,9 +208,9 @@ body {
 }
 
 .lang-list {
-  /*display: flex;
+  /* display: flex;
   justify-content: space-around;
-  align-items: center;*/
+  align-items: center; */
   width: 82%;
   margin-left: -5%;
   padding: 4px 12px;
