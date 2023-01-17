@@ -208,9 +208,9 @@ body {
 }
 
 .lang-list {
-  /* display: flex;
+  display: flex;
   justify-content: space-around;
-  align-items: center; */
+  align-items: center;
   width: 82%;
   margin-left: -5%;
   padding: 4px 12px;
@@ -225,7 +225,7 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
-  float: left;
+  
 }
 
 .Css {
@@ -237,7 +237,7 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
-  float: left;
+  
 }
 
 .js {
@@ -249,7 +249,7 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
-  float: left;
+  
 }
 
 .button {
@@ -297,8 +297,8 @@ body {
 
 .aboutme_container {
   background-color: #fff;
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px;
+  padding: 10px; */
   border: 3px solid #fff;
   border-top-right-radius: 25% 50px;
 }
@@ -427,3 +427,52 @@ body {
   color: black;
   justify-content: space-between;
 }
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  
+}
+.contact-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  background-color: #6070ff;
+  background-image: url(assets/contact-shapes.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 750px;
+  border-top-left-radius: 70px;
+
+}
+.contacts{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 40px ;
+  margin: -90px 40px 30px;
+  color:#fff;
+  font-weight: bold;
+}
+.contacts-txt{
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px ;
+  line-height: 28px;
+  color: #ebebff;;
+  text-align: center;
+}
+.name-form{
+  position: absolute;
+  font-size: 50px;
+}
+#form-submit{
+  margin-left: -3px;
+} 
