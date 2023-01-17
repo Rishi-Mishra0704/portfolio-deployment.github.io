@@ -123,7 +123,10 @@ If you like this project...
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
-
+<ul>
+<li>Nguyen Linh Chi : <a href = "https://github.com/ayaderaghul"></a></li>
+<li>Amanuel Belete : <a href="https://github.com/amanuelbelete95"></a> </li>
+</ul>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
