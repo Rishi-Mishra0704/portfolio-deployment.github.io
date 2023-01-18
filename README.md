@@ -31,7 +31,7 @@
 
 > Description
 
-**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .
+**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .lolo
 
 ## 🛠 Built With <a name="built-with">HTMLand CSS</a>
 
@@ -123,7 +123,10 @@ If you like this project...
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
-
+<ul>
+<li>  <a href = "https://github.com/ayaderaghul">Nguyen Linh Chi</a></li>
+<li> <a href="https://github.com/amanuelbelete95">Amanuel Belete</a> </li>
+</ul>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>

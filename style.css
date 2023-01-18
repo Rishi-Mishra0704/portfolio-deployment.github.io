@@ -241,7 +241,7 @@ body {
 .js {
   margin: 12px 2px;
   padding: 5px 10px;
-  font-size: 20px;
+  font-size: 15px;
   color: #6070ff;
   background-color: #ebebff;
   border: 2px solid #ebebff;
@@ -294,8 +294,9 @@ body {
 
 .aboutme_container {
   background-color: #fff;
-  margin: 10px;
-  padding: 10px;
+
+  /* margin: 10px;
+  padding: 10px; */
   border: 3px solid #fff;
   border-top-right-radius: 25% 50px;
 }
@@ -423,4 +424,91 @@ body {
   line-height: 38px;
   color: black;
   justify-content: space-between;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+}
+
+.contact-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  background-color: #6070ff;
+  background-image: url(assets/contact-shapes.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  height: 800px;
+  border-top-left-radius: 70px;
+}
+
+.contacts {
+  align-items: center;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  margin: 50px;
+}
+
+.contacts-txt {
+  /* margin: 0 20px 0 0; */
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  height: 200px;
+}
+
+.name-form {
+  position: absolute;
+  font-size: 50px;
+}
+
+#form-submit {
+  margin-left: -3px;
+}
+
+form {
+  /* border: 1px solid black; */
+  margin-top: -60px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#email {
+  width: 327px;
+  height: 48px;
+  margin-top: 80px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#msg {
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 327px;
+  height: 140px;
+  padding: 5px;
 }
