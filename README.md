@@ -124,8 +124,8 @@ If you like this project...
 
 I would like to thank...
 <ul>
-<li>Nguyen Linh Chi : <a href = "https://github.com/ayaderaghul"></a></li>
-<li>Amanuel Belete : <a href="https://github.com/amanuelbelete95"></a> </li>
+<li>  <a href = "https://github.com/ayaderaghul">Nguyen Linh Chi</a></li>
+<li> <a href="https://github.com/amanuelbelete95">Amanuel Belete</a> </li>
 </ul>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

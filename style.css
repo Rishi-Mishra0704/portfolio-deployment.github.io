@@ -225,7 +225,6 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
-  
 }
 
 .Css {
@@ -237,7 +236,6 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
-  
 }
 
 .js {
@@ -249,7 +247,6 @@ body {
   border: 2px solid #ebebff;
   border-radius: 9px;
   outline: none;
-  
 }
 
 .button {
@@ -297,6 +294,7 @@ body {
 
 .aboutme_container {
   background-color: #fff;
+
   /* margin: 10px;
   padding: 10px; */
   border: 3px solid #fff;
@@ -427,16 +425,18 @@ body {
   color: black;
   justify-content: space-between;
 }
-.contact-container{
+
+.contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
-  
+  padding-top: 100px;
 }
-.contact-bg{
+
+.contact-bg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -448,36 +448,36 @@ body {
   background-size: 100%;
   height: 750px;
   border-top-left-radius: 70px;
-
 }
-.contacts{
+
+.contacts {
   align-items: center;
-  font-size: 40px ;
-  color:#fff;
+  font-size: 40px;
+  color: #fff;
   font-weight: bold;
   margin: 50px;
 }
-.contacts-txt{
+
+.contacts-txt {
   /* margin: 0 20px 0 0; */
+
   /* display: flex;
   flex-direction: column;
   align-items: center; */
-  font-size: 20px ;
+  font-size: 20px;
   line-height: 28px;
-  color: #ebebff;;
+  color: #ebebff;
   text-align: center;
   height: 200px;
 }
-.name-form{
+
+.name-form {
   position: absolute;
   font-size: 50px;
 }
-#form-submit{
-  margin-left: -3px;
-} 
 
-.contact-container {
-  padding-top: 100px;
+#form-submit {
+  margin-left: -3px;
 }
 
 form {
@@ -503,7 +503,6 @@ form {
   margin-top: 100px;
   border-radius: 8px;
   padding: 5px;
-
 }
 
 #msg {
@@ -512,5 +511,4 @@ form {
   width: 327px;
   height: 170px;
   padding: 5px;
-
 }
