@@ -446,7 +446,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100%;
-  height: 750px;
+  height: 800px;
   border-top-left-radius: 70px;
 }
 
@@ -482,7 +482,7 @@ body {
 
 form {
   /* border: 1px solid black; */
-  margin-top: 20px;
+  margin-top: -60px;
 }
 
 .contact-form {
@@ -497,18 +497,18 @@ form {
   padding: 5px;
 }
 
-#mail {
+#email {
   width: 327px;
   height: 48px;
-  margin-top: 100px;
+  margin-top: 80px;
   border-radius: 8px;
   padding: 5px;
 }
 
 #msg {
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 8px;
   width: 327px;
-  height: 170px;
+  height: 140px;
   padding: 5px;
 }
