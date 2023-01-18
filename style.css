@@ -451,23 +451,22 @@ body {
 
 }
 .contacts{
-  display: flex;
-  flex-direction: row;
   align-items: center;
   font-size: 40px ;
-  margin: -90px 40px 30px;
   color:#fff;
   font-weight: bold;
+  margin: 50px;
 }
 .contacts-txt{
-  margin: 0 20px 0 0;
-  display: flex;
+  /* margin: 0 20px 0 0; */
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   font-size: 20px ;
   line-height: 28px;
   color: #ebebff;;
   text-align: center;
+  height: 200px;
 }
 .name-form{
   position: absolute;
@@ -476,3 +475,42 @@ body {
 #form-submit{
   margin-left: -3px;
 } 
+
+.contact-container {
+  padding-top: 100px;
+}
+
+form {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#mail {
+  width: 327px;
+  height: 48px;
+  margin-top: 100px;
+  border-radius: 8px;
+  padding: 5px;
+
+}
+
+#msg {
+  margin-top: 50px;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+  padding: 5px;
+
+}
