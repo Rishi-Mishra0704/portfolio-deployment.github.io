@@ -289,7 +289,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 40px;
   color: rgb(0, 9, 41);
   text-shadow: steelblue;
 }
@@ -642,19 +642,133 @@ form {
     border: 3px solid #fff;
     border-top-right-radius: 25% 50px;
   }
-  .arrow{
+  .arrow {
     display: none;
+  }
+  .grid_item1{
+    margin-left:25%;
+  }
+  .grid_item2{
+    display:flex ;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 25%;
+  }
+  .about_me{
+    font-size: 30px;
   }
   .intro_2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: -20px 30px 0 -20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     color: #344563;
+  }
+  .social-text_2 {
+    margin: 10px 35px;
+    color: #6070ff;
+    font-size: 24px;
+  }
+
+  .social-icon_2 {
+    display: flex;
+    justify-content: start;
+    font-size: 30px;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#253858;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight:normal;
+  }
+  .langs_list{
+    display: flex;
+    flex-direction: row;
+  }
+  .js_2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
+    height: 120px;
+    width: 120px;
+
+  }
+  .js_2 p{
+    padding-right: 2px;
+  }
+  .js_2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .Html_2 {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    font-size: 20px;
+    border-radius: 3px;
+    height: 120px;
+    width: 120px;
+  }
+  .Html_2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .Css_2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
+    height: 120px;
+    width: 120px;
+  }
+  .Css_2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .framework {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color: black;
+  }
+
+  .skill_txt {
+    margin: 4px 0;
+    font-size: 20px;
+    height: 40px;
+    padding: 4px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: black;
+    justify-content: space-between;
   }
 
   /*-----Contact me-------*/
