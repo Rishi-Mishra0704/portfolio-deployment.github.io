@@ -168,7 +168,13 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   margin-top: 12px;
-  margin-left: 15;
+  margin-left: 15;  
+}
+
+.work-img:hover {
+  width: 105%;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 .some-list {
