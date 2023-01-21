@@ -659,6 +659,7 @@ form {
     background-color: #fff;
     border: 3px solid #fff;
     border-top-right-radius: 25% 50px;
+    padding: 0 20%;
   }
   .arrow {
     display: none;
