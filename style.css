@@ -572,11 +572,11 @@ form {
   .greet {
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
+    font-weight: 800;
+    font-size: 36px;
     color: #091e42;
     text-shadow: steelblue;
-    margin-left: -3px;
+    margin-left: -1px;
   }
 
   .intro {
@@ -595,15 +595,16 @@ form {
 
   .social-icon {
     margin-top: -25px;
-    margin-left: -15px;
     display: flex;
-    justify-content: start;
-    font-size: 8px;
+    flex-direction: row;
+    font-size: 15px;
+    float: left;
+    flex: 1;
   }
 
   .twitter-handle {
-    padding: 0 15px;
-    margin-right: 3px;
+    margin-right: 12px;
+    margin-left: 12px;
     font-size: 8px;
   }
 
@@ -618,8 +619,7 @@ form {
   }
 
   .linkedin-handle {
-    padding: 0 15px;
-    margin-right: 12px;
+    margin-left: -15px;
     font-size: 8px;
   }
 
@@ -634,8 +634,7 @@ form {
   }
 
   .github-handle {
-    padding: 0 15px;
-    margin-right: 12px;
+    margin-left: 12px;
     font-size: 8px;
   }
 
@@ -671,34 +670,44 @@ form {
     background-color: white;
     box-sizing: border-box;
     border-radius: 30px;
+    color: #091e42;
+    font-weight: 700;
   }
 
   #desktop_1 {
-    margin: 20px 10% 20px 10%;
+    margin: 25px 5% 25px 10%;
     display: flex;
     flex-direction: row;
-    padding: 10px 10px;
+    height: 75%;
+    width: 85%;
   }
 
   #desktop_2 {
-    margin: 20px 10% 20px 10%;
+    margin: 25px 5% 25px 10%;
     display: flex;
     flex-direction: row;
-    padding: 10px 10px;
+    height: 75%;
+    width: 85%;
   }
 
   #desktop_3 {
-    margin: 20px 10% 20px 10%;
+    margin: 25px 5% 25px 10%;
     display: flex;
     flex-direction: row;
-    padding: 10px 10px;
+    height: 75%;
+    width: 85%;
   }
 
   #desktop_4 {
-    margin: 20px 10% 20px 10%;
+    margin: 25px 5% 25px 10%;
     display: flex;
     flex-direction: row;
-    padding: 10px 10px;
+    height: 75%;
+    width: 85%;
+  }
+
+  .desktop_info {
+    margin: 4% 3%;
   }
 
   .ruby {
@@ -723,11 +732,6 @@ form {
     padding: 0 5%;
   }
 
-  .arrow {
-    display: flex;
-    justify-content: right;
-  }
-
   .grid_item1 {
     margin-left: 15%;
   }
@@ -740,7 +744,8 @@ form {
   }
 
   #about_me {
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 36px;
     color: #091e42;
     font-family: "Poppins", sans-serif;
   }
@@ -770,25 +775,28 @@ form {
     font-size: 30px;
   }
 
+  #twitter2 {
+    margin-right: 20px;
+  }
+
   .medium {
-    margin: -10px 5px 0 3px;
+    margin: -10px 20px 0 20px;
   }
 
   .angelist {
-    margin: -7px 5px 2px 0;
+    margin: -7px 20px 2px 20px;
   }
 
   .skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   .languages {
-    margin-right: 70px;
+    margin-right: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     color: #253858;
     font-size: 22px;
     font-family: "Poppins", sans-serif;
@@ -862,6 +870,10 @@ form {
   .Css_2 img {
     height: 40px;
     width: 40px;
+  }
+
+  .arrow {
+    display: block;
   }
 
   .framework {
@@ -946,7 +958,7 @@ form {
   }
 
   form {
-    /* border: 1px solid black; */
+    border: none;
     margin-top: -60px;
   }
 
@@ -957,12 +969,16 @@ form {
   }
 
   #name {
+    border-radius: 0;
+    border: none;
     width: 327px;
     height: 28px;
     padding: 5px;
   }
 
   #email {
+    border-radius: 0;
+    border: none;
     width: 327px;
     height: 28px;
     margin-top: 80px;
@@ -970,6 +986,8 @@ form {
   }
 
   #msg {
+    border-radius: 0;
+    border: none;
     margin-top: 30px;
     width: 327px;
     height: 140px;
