@@ -319,7 +319,7 @@ body {
   font-size: 30px;
 }
 
-.skill-list {
+.skills{
   margin: 5px;
   padding: 0;
 }
@@ -634,6 +634,13 @@ form {
   }
   /*-----my work------*/
 
+
+
+
+
+
+
+  
   /*--------About me--------*/
   .aboutme_container {
     display: grid;
@@ -655,6 +662,161 @@ form {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+  }
+
+  /*-----Contact me-------*/
+  .aboutme_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-top-right-radius: 25% 50px;
+  }
+  .arrow {
+    display: none;
+  }
+  .grid_item1{
+    margin-left:25%;
+  }
+  .grid_item2{
+    display:flex ;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 25%;
+  }
+  .about_me{
+    font-size: 30px;
+  }
+  .intro_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #344563;
+    margin-left: 30px;
+  }
+  .social-text_2 {
+    margin: 10px 35px;
+    color: #6070ff;
+    font-size: 24px;
+  }
+
+  .social-icon_2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  .medium{
+    margin: -10px 5px 0 3px;
+  }
+  .angelist{
+    margin: -7px 5px 2px 0;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#253858;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight:bold;
+  }
+  .langs_list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .langs_list{
+    margin-right: 20px;
+  }
+  .js_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
+    height: 100px;
+    width: 100px;
+
+  }
+  .js_2 p{
+    justify-content: left;
+    margin-left: -11px;
+  }
+  .js_2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .Html_2 {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    font-size: 20px;
+    border-radius: 3px;
+    height: 100px;
+    width: 100px;
+  }
+  .Html_2 p{
+      margin-left: -28px;
+  }
+  .Html_2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .Css_2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 3px;
+    height: 100px;
+    width: 100px;
+  }
+  .Css_2 p{
+    margin-left: -37px;
+  }
+  .Css_2 img{
+    height: 40px;
+    width: 40px;
+  }
+  .framework {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color:#253858;
+  }
+
+  .skill_txt {
+    margin: 4px 0;
+    font-size: 20px;
+    height: 40px;
+    padding: 4px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: #253858;
+    justify-content: space-between;
   }
 
   /*-----Contact me-------*/
@@ -744,6 +906,10 @@ form {
     width: 327px;
     height: 140px;
     padding: 5px;
+  }
+  #form-submit {
+    border: 2px solid #6070ff;
+    margin-left: 42%;
   }
   #form-submit {
     border: 2px solid #6070ff;
