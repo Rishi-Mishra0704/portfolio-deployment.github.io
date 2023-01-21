@@ -504,7 +504,7 @@ form {
 @media screen and (min-width: 768px) {
   /* ------ Navbar ------- */
   .nav {
-    padding: 20px 15px;
+    padding: 30px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -573,7 +573,7 @@ form {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 42px;
     color: #091e42;
     text-shadow: steelblue;
     margin-left: -2px;
@@ -590,10 +590,11 @@ form {
 
   .social-text {
     color: #6070ff;
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .social-icon {
+    margin-top: -25px;
     margin-left: -15px;
     display: flex;
     justify-content: start;
@@ -702,14 +703,13 @@ form {
 
   .ruby {
     margin: 12px 2px;
-    padding: 5px 5px;
-    font-size: 15px;
+    padding: 5px 12px;
+    font-size: 16px;
     color: #6070ff;
     background-color: #ebebff;
     border: 2px solid #ebebff;
     border-radius: 9px;
     outline: none;
-    width: 80px;
     text-align: center;
   }
 
@@ -724,7 +724,8 @@ form {
   }
 
   .arrow {
-    display: none;
+    display: flex;
+    justify-content: right;
   }
 
   .grid_item1 {
@@ -737,11 +738,11 @@ form {
     font-size: 20px;
     margin: 10% 12% 0 12%;
   }
-
-  .about_me {
-    font-size: 30px;
-  }
-
+  #about_me{
+      font-size: 40px;
+      color: #091e42;
+      font-family: "Poppins",sans-serif;
+    }
   .intro_2 {
     display: flex;
     flex-direction: column;
@@ -750,7 +751,7 @@ form {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 22px;
     color: #344563;
     margin-left: 30px;
   }
@@ -782,11 +783,12 @@ form {
   }
 
   .languages {
+    margin-right: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #253858;
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
@@ -861,28 +863,28 @@ form {
   }
 
   .framework {
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
     color: #253858;
   }
-
   .skill_txt {
-    margin: 4px 0;
-    font-size: 20px;
-    height: 40px;
-    padding: 4px;
     display: flex;
+    flex-direction: column;
+    font-size: 22px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: 38px;
     color: #253858;
-    justify-content: space-between;
+    height: 94px;
+  }
+  .arrow1{
+    display: flex;
+    justify-content: right;
   }
 
   /* -----Contact me------- */
@@ -952,22 +954,19 @@ form {
 
   #name {
     width: 327px;
-    height: 48px;
-    border-radius: 8px;
+    height: 28px;
     padding: 5px;
   }
 
   #email {
     width: 327px;
-    height: 48px;
+    height: 28px;
     margin-top: 80px;
-    border-radius: 8px;
     padding: 5px;
   }
 
   #msg {
     margin-top: 30px;
-    border-radius: 8px;
     width: 327px;
     height: 140px;
     padding: 5px;
