@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-/*---------------------------- Phone styles --------------------------------*/
+/* ---------------------------- Phone styles -------------------------------- */
 
 .nav {
   padding: 20px 15px;
@@ -37,9 +37,11 @@ body {
   border: none;
   background-color: #fff;
 }
+
 .nav-list {
   display: none;
 }
+
 .bg {
   display: flex;
   flex-direction: column;
@@ -136,9 +138,11 @@ body {
 .github-handle:active {
   opacity: 0.3;
 }
-.desktop_work{
+
+.desktop-work {
   display: none;
 }
+
 .project-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -321,7 +325,7 @@ body {
   font-size: 30px;
 }
 
-.skills{
+.skills {
   margin: 5px;
   padding: 0;
 }
@@ -495,9 +499,10 @@ form {
   height: 140px;
   padding: 5px;
 }
-/*---------------------------Desktop styles------------------------------*/
+
+/* ---------------------------Desktop styles------------------------------ */
 @media screen and (min-width: 768px) {
-  /*------ Navbar -------*/
+  /* ------ Navbar ------- */
   .nav {
     padding: 20px 15px;
     display: flex;
@@ -505,6 +510,7 @@ form {
     justify-content: space-between;
     background-color: #fff;
   }
+
   .my-logo {
     margin-top: 30px;
     margin-left: 20px;
@@ -519,6 +525,7 @@ form {
   .navbar {
     display: none;
   }
+
   .nav-list {
     display: flex;
     margin-top: 30px;
@@ -526,17 +533,20 @@ form {
     font-family: "Poppins", sans-serif;
     color: #344563;
   }
+
   .nav-item1 {
     margin-right: 20px;
   }
-  .nav-item2 {
-    margin-right: 20px;
-  }
+
   .nav-item2 {
     margin-right: 20px;
   }
 
-  /*------- Home page --------*/
+  .nav-item3 {
+    margin-right: 20px;
+  }
+
+  /* ------- Home page -------- */
   .bg {
     /* display: flex;
     flex-direction: column;
@@ -550,6 +560,7 @@ form {
     width: 100%;
     border-bottom-left-radius: 50px;
   }
+
   .home-page {
     margin-left: 200px;
     display: flex;
@@ -557,6 +568,7 @@ form {
     align-items: flex-start;
     justify-content: left;
   }
+
   .greet {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -566,6 +578,7 @@ form {
     text-shadow: steelblue;
     margin-left: -2px;
   }
+
   .intro {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -634,49 +647,101 @@ form {
   .github-handle:active {
     opacity: 0.3;
   }
-  /*-----my work------*/
 
-.work{
-  display: none;
-}
+  /* -----my work------ */
 
+  .work {
+    display: none;
+  }
 
-.ruby{
-  margin: 12px 2px;
-  padding: 5px 10px;
-  font-size: 15px;
-  color: #6070ff;
-  background-color: #ebebff;
-  border: 2px solid #ebebff;
-  border-radius: 9px;
-  outline: none;
-}
-  
-  /*--------About me--------*/
+  .desktop-work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-img {
+    height: 450px;
+    width: 550px;
+  }
+
+  .desktop_projects {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+  #desktop_1 {
+    margin: 20px 10% 20px 10%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+  }
+
+  #desktop_2 {
+    margin: 20px 10% 20px 10%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+  }
+
+  #desktop_3 {
+    margin: 20px 10% 20px 10%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+  }
+
+  #desktop_4 {
+    margin: 20px 10% 20px 10%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+  }
+
+  .ruby {
+    margin: 12px 2px;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: #6070ff;
+    background-color: #ebebff;
+    border: 2px solid #ebebff;
+    border-radius: 9px;
+    outline: none;
+    width: 80px;
+    text-align: center;
+  }
+
+  /* --------About me-------- */
   .aboutme_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fff;
     border: 3px solid #fff;
     border-top-right-radius: 25% 50px;
-    padding: 0 20%;
+    padding: 0 5%;
   }
+
   .arrow {
     display: none;
   }
-  .grid_item1{
-    margin-left:25%;
+
+  .grid_item1 {
+    margin-left: 15%;
   }
-  .grid_item2{
-    display:flex ;
+
+  .grid_item2 {
+    display: flex;
     flex-direction: column;
     font-size: 20px;
-    margin-top: 10%;
-    margin-right: 25%;
+    margin: 10% 12% 0 12%;
   }
-  .about_me{
+
+  .about_me {
     font-size: 30px;
   }
+
   .intro_2 {
     display: flex;
     flex-direction: column;
@@ -684,11 +749,12 @@ form {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
     color: #344563;
     margin-left: 30px;
   }
+
   .social-text_2 {
     margin: 10px 35px;
     color: #6070ff;
@@ -700,13 +766,16 @@ form {
     flex-direction: row;
     font-size: 30px;
   }
-  .medium{
+
+  .medium {
     margin: -10px 5px 0 3px;
   }
-  .angelist{
+
+  .angelist {
     margin: -7px 5px 2px 0;
   }
-  .skills{
+
+  .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -716,19 +785,19 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:#253858;
+    color: #253858;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
-    font-weight:bold;
+    font-weight: bold;
   }
-  .langs_list{
+
+  .langs_list {
     display: flex;
     flex-direction: row;
     width: 100%;
-  }
-  .langs_list{
     margin-right: 20px;
   }
+
   .js_2 {
     display: flex;
     flex-direction: column;
@@ -739,16 +808,18 @@ form {
     border-radius: 3px;
     height: 100px;
     width: 100px;
-
   }
-  .js_2 p{
+
+  .js_2 p {
     justify-content: left;
     margin-left: -11px;
   }
-  .js_2 img{
+
+  .js_2 img {
     height: 40px;
     width: 40px;
   }
+
   .Html_2 {
     display: flex;
     flex-direction: column;
@@ -759,13 +830,16 @@ form {
     height: 100px;
     width: 100px;
   }
-  .Html_2 p{
-      margin-left: -28px;
+
+  .Html_2 p {
+    margin-left: -28px;
   }
-  .Html_2 img{
+
+  .Html_2 img {
     height: 40px;
     width: 40px;
   }
+
   .Css_2 {
     display: flex;
     flex-direction: column;
@@ -776,13 +850,16 @@ form {
     height: 100px;
     width: 100px;
   }
-  .Css_2 p{
+
+  .Css_2 p {
     margin-left: -37px;
   }
-  .Css_2 img{
+
+  .Css_2 img {
     height: 40px;
     width: 40px;
   }
+
   .framework {
     font-size: 20px;
     display: flex;
@@ -791,7 +868,7 @@ form {
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    color:#253858;
+    color: #253858;
   }
 
   .skill_txt {
@@ -808,7 +885,7 @@ form {
     justify-content: space-between;
   }
 
-  /*-----Contact me-------*/
+  /* -----Contact me------- */
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -823,6 +900,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     /* padding: 0 24px; */
     background-color: #6070ff;
     background-image: url(assets/contact\ form\ background\ shapes.png);
@@ -838,7 +916,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: center;
     font-size: 40px;
     color: #fff;
     font-weight: bold;
@@ -847,7 +924,6 @@ form {
 
   .contacts-txt {
     margin-top: -105px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -896,10 +972,7 @@ form {
     height: 140px;
     padding: 5px;
   }
-  #form-submit {
-    border: 2px solid #6070ff;
-    margin-left: 42%;
-  }
+
   #form-submit {
     border: 2px solid #6070ff;
     margin-left: 42%;
