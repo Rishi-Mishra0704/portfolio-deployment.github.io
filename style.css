@@ -136,7 +136,9 @@ body {
 .github-handle:active {
   opacity: 0.3;
 }
-
+.desktop_work{
+  display: none;
+}
 .project-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -634,37 +636,23 @@ form {
   }
   /*-----my work------*/
 
+.work{
+  display: none;
+}
 
 
-
-
-
-
+.ruby{
+  margin: 12px 2px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #6070ff;
+  background-color: #ebebff;
+  border: 2px solid #ebebff;
+  border-radius: 9px;
+  outline: none;
+}
   
   /*--------About me--------*/
-  .aboutme_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #fff;
-    border: 3px solid #fff;
-    border-top-right-radius: 25% 50px;
-  }
-  .arrow{
-    display: none;
-  }
-  .intro_2 {
-    display: flex;
-    justify-content: center;
-    margin: -20px 30px 0 -20px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  /*-----Contact me-------*/
   .aboutme_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
