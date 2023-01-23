@@ -83,6 +83,7 @@ body {
 }
 
 .social-text {
+  text-transform: uppercase;
   color: #6070ff;
   font-size: 24px;
 }
@@ -313,6 +314,7 @@ body {
 }
 
 .social-text_2 {
+  text-transform: uppercase;
   margin: 10px 35px;
   color: #6070ff;
   font-size: 24px;
@@ -329,12 +331,14 @@ body {
   margin: 5px;
   padding: 0;
 }
-
+.separator{
+  display: none;
+}
 .languages {
   color: black;
   display: flex;
   justify-content: space-between;
-  margin: 12px 15px;
+  margin: 12px 25px;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -388,7 +392,7 @@ body {
 }
 
 .framework {
-  margin: 5px 5px 5px 0;
+  margin: 5px 10px 5px 10px;
   font-size: 20px;
   display: flex;
   justify-content: space-between;
@@ -400,7 +404,7 @@ body {
 }
 
 .skill_txt {
-  margin: 4px 0;
+  margin: 4px 8px;
   font-size: 20px;
   height: 40px;
   padding: 4px;
@@ -589,8 +593,9 @@ form {
   }
 
   .social-text {
+    text-transform: uppercase;
     color: #6070ff;
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .social-icon {
@@ -663,7 +668,9 @@ form {
     height: 450px;
     width: 550px;
   }
-
+  .langs{
+    padding-left:10px;
+  }
   .desktop_projects {
     display: flex;
     justify-content: center;
@@ -764,6 +771,7 @@ form {
   }
 
   .social-text_2 {
+    text-transform: uppercase;
     margin: 10px 35px;
     color: #6070ff;
     font-size: 24px;
@@ -791,7 +799,9 @@ form {
     display: flex;
     flex-direction: column;
   }
-
+  .separator{
+    display: block;
+  }
   .languages {
     margin-right: 10px;
     display: flex;
@@ -808,6 +818,7 @@ form {
     flex-direction: row;
     width: 100%;
     margin-right: 20px;
+    margin-left: 30px;
   }
 
   .js_2 {
@@ -818,8 +829,8 @@ form {
     background-color: whitesmoke;
     border: 3px solid whitesmoke;
     border-radius: 3px;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
   .js_2 p {
@@ -828,8 +839,8 @@ form {
   }
 
   .js_2 img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 
   .Html_2 {
@@ -839,8 +850,8 @@ form {
     border: 3px solid whitesmoke;
     font-size: 20px;
     border-radius: 3px;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
   .Html_2 p {
@@ -848,8 +859,8 @@ form {
   }
 
   .Html_2 img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 
   .Css_2 {
@@ -859,8 +870,8 @@ form {
     background-color: whitesmoke;
     border: 3px solid whitesmoke;
     border-radius: 3px;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
   .Css_2 p {
@@ -868,8 +879,8 @@ form {
   }
 
   .Css_2 img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 
   .arrow {
@@ -886,7 +897,9 @@ form {
     line-height: 52px;
     color: #253858;
   }
-
+  .framework p{
+    margin: 0 0 0 13px;
+  }
   .skill_txt {
     display: flex;
     flex-direction: column;
@@ -897,7 +910,9 @@ form {
     color: #253858;
     height: 94px;
   }
-
+  .skill_txt p{
+    margin: 0 0 0 11px;
+  }
   .arrow1 {
     display: flex;
     justify-content: right;
