@@ -31,7 +31,7 @@
 
 > Description
 
-**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .lolo
+**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .You can check the deployment section for more info.
 
 ## 🛠 Built With <a name="built-with">HTMLand CSS</a>
 
@@ -86,7 +86,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: <a href="https://rishi-mishra0704.github.io/portfolio-deployment.github.io/">This link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
