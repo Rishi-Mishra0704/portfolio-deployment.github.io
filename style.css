@@ -331,9 +331,11 @@ body {
   margin: 5px;
   padding: 0;
 }
-.separator{
+
+.separator {
   display: none;
 }
+
 .languages {
   color: black;
   display: flex;
@@ -668,9 +670,11 @@ form {
     height: 450px;
     width: 550px;
   }
-  .langs{
-    padding-left:10px;
+
+  .langs {
+    padding-left: 10px;
   }
+
   .desktop_projects {
     display: flex;
     justify-content: center;
@@ -799,9 +803,11 @@ form {
     display: flex;
     flex-direction: column;
   }
-  .separator{
+
+  .separator {
     display: block;
   }
+
   .languages {
     margin-right: 10px;
     display: flex;
@@ -897,9 +903,11 @@ form {
     line-height: 52px;
     color: #253858;
   }
-  .framework p{
+
+  .framework p {
     margin: 0 0 0 13px;
   }
+
   .skill_txt {
     display: flex;
     flex-direction: column;
@@ -910,9 +918,11 @@ form {
     color: #253858;
     height: 94px;
   }
-  .skill_txt p{
+
+  .skill_txt p {
     margin: 0 0 0 11px;
   }
+
   .arrow1 {
     display: flex;
     justify-content: right;
