@@ -58,7 +58,7 @@ body {
 
 .greet {
   display: flex;
-  justify-content:left;
+  justify-content: left;
   margin-top: 5px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -506,7 +506,7 @@ form {
 }
 
 /* ---------------------------Desktop styles------------------------------ */
-@media screen and (min-width:760px) {
+@media screen and (min-width: 760px) {
   /* ------ Navbar ------- */
   .nav {
     padding: 30px 10px;
@@ -669,7 +669,12 @@ form {
     height: 450px;
     width: 550px;
   }
-
+  .work-img:hover {
+    width: 50%;
+    height: 50%;
+    transition: 0.7s;
+    transition-timing-function: ease-in-out;
+  }
   .langs {
     padding-left: 10px;
   }
