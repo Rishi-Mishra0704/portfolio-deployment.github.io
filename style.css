@@ -58,9 +58,8 @@ body {
 
 .greet {
   display: flex;
-  justify-content: center;
+  justify-content:left;
   margin-top: 5px;
-  margin-left:4px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -507,7 +506,7 @@ form {
 }
 
 /* ---------------------------Desktop styles------------------------------ */
-@media screen and (min-width:560px) {
+@media screen and (min-width:760px) {
   /* ------ Navbar ------- */
   .nav {
     padding: 30px 10px;
