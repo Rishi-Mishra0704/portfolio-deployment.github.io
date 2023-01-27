@@ -31,7 +31,7 @@
 
 > Description
 
-**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .You can check the deployment section for more info.
+**[Rishi's_Portfolio]** is a project I created to test my skills with html and vanilla css , it has a greetings section , my introduction and my social handles, my works and about me .You can check the deployment section for more info.Also here is a <a href="https://www.loom.com/share/1b93984d6e3e4ddba042e49b43adb06b">link</a>  to a short descriptive video about my thought process while making this program.
 
 ## 🛠 Built With <a name="built-with">HTMLand CSS</a>
 
