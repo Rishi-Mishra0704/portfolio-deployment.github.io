@@ -30,7 +30,7 @@ body {
 }
 
 .header-container button {
-  font-size: 50px;
+  font-size: 30px;
   display: block;
   border: none;
   outline: none;
@@ -40,7 +40,7 @@ body {
   font-weight: 600;
   width: 30px;
   line-height: 28px;
-  color: #4a5bef;
+  color:  #6070ff;
   text-align: center;
   float: right;
   cursor: pointer;
@@ -55,6 +55,7 @@ body {
 }
 
 .my-logo {
+  margin-top: 3px;
   margin-left: 20px;
   font-style: normal;
   font-weight: bold;
@@ -434,7 +435,7 @@ body {
 }
 
 .languages {
-  color: black;
+  color: #253858;
   display: flex;
   justify-content: space-between;
   margin: 12px 25px;
@@ -444,15 +445,17 @@ body {
   font-weight: 700;
   line-height: 52px;
 }
-
+#lang-txt{
+  color: #000;
+}
 .js_2 {
   padding: 5px;
   line-height: 50px;
   display: flex;
-  background-color: whitesmoke;
-  border: 3px solid whitesmoke;
+  background-color: #f7f7f9;
+  border: 3px solid #f7f7f9;
   margin: 5px;
-  border-radius: 3px;
+  border-radius: 4px;
   text-align: center;
 }
 
@@ -464,10 +467,10 @@ body {
   padding: 5px;
   line-height: 50px;
   display: flex;
-  background-color: whitesmoke;
-  border: 3px solid whitesmoke;
+  background-color: #f7f7f9;
+  border: 3px solid #f7f7f9;
   margin: 5px;
-  border-radius: 3px;
+  border-radius: 4px;
   text-align: center;
 }
 
@@ -479,10 +482,10 @@ body {
   padding: 5px;
   line-height: 50px;
   display: flex;
-  background-color: whitesmoke;
-  border: 3px solid whitesmoke;
+  background-color: #f7f7f9;
+  border: 3px solid #f7f7f9;
   margin: 5px;
-  border-radius: 3px;
+  border-radius: 4px;
   text-align: center;
 }
 
@@ -517,13 +520,16 @@ body {
 }
 
 .contact-container {
+  outline: none;
+  text-decoration: none;
+  border: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
-  padding-top: 100px;
+  padding-top: 30%;
 }
 
 .contact-bg {
@@ -549,11 +555,7 @@ body {
 }
 
 .contacts-txt {
-  /* margin: 0 20px 0 0; */
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
+  margin-top: 10%;
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
@@ -622,7 +624,9 @@ form {
   }
 
   .nav {
-    margin-left: 50%;
+    font-family: "Poppins",sans-serif;
+    color: #344563;
+    margin-right: 10%;
     margin-top: 20px;
     padding: 10px 0;
     display: flex;
@@ -639,10 +643,6 @@ form {
     text-decoration: none;
     font-size: 19px;
     color: #6070ff;
-  }
-
-  .navbar {
-    display: none;
   }
 
   .nav-list {
