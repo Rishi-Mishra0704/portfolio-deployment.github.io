@@ -1,9 +1,13 @@
 * {
   text-transform: capitalize;
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -11,19 +15,47 @@ body {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* ---------------------------- Phone styles -------------------------------- */
 
-.nav {
-  padding: 20px 15px;
+.header-container {
+  padding-top: 10px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.header-container button {
+  font-size: 50px;
+  display: block;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  width: 30px;
+  line-height: 28px;
+  color: #4a5bef;
+  text-align: center;
+  float: right;
+  cursor: pointer;
+  margin-right: 300px;
+}
+
+.nav {
+  padding: 20px 0;
+  margin-left: -120%;
+  display: flex;
   background-color: #fff;
 }
 
 .my-logo {
+  margin-left: 20px;
   font-style: normal;
   font-weight: bold;
   line-height: 1.3rem;
@@ -40,6 +72,72 @@ body {
 
 .nav-list {
   display: none;
+}
+
+.mobile-menu-bar {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+}
+
+.menu-header {
+  width: 100%;
+  height: 48px;
+  margin: 0.5em 0.5em;
+}
+
+.close-btn {
+  font-size: 35px;
+  color: #fff;
+  float: right;
+  padding: 0 38px 0 0;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu-body {
+  width: 100%;
+  height: 40%;
+}
+
+.menu-body ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 8px;
+  left: 0;
+  top: 0;
+  margin: 10px 0 0 1px;
+  list-style: none;
+}
+
+.menu-body ul li {
+  border-radius: 8px;
+  margin-left: 28px;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.menu-body a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
 }
 
 .bg {
@@ -508,24 +606,33 @@ form {
 /* ---------------------------Desktop styles------------------------------ */
 @media screen and (min-width: 760px) {
   /* ------ Navbar ------- */
-  .header-container button{
+  .header-container button {
     display: none;
   }
-  .header-container{
+
+  .header-container {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
+
+  .mobile-menu-bar {
+    display: none;
+  }
+
   .nav {
-    padding: 30px 10px;
+    margin-left: 50%;
+    margin-top: 20px;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: #fff;
   }
 
   .my-logo {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 10%;
     font-style: normal;
     font-weight: bold;
     line-height: 1.3rem;
@@ -540,8 +647,6 @@ form {
 
   .nav-list {
     display: flex;
-    margin-top: 30px;
-    margin-right: 70px;
     font-family: "Poppins", sans-serif;
     color: #000;
   }
@@ -551,10 +656,6 @@ form {
   }
 
   .nav-item2 {
-    margin-right: 20px;
-  }
-
-  .nav-item3 {
     margin-right: 20px;
   }
 
