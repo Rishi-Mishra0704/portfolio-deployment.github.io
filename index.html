@@ -14,18 +14,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <header>
+    <header class="header-container active">
+      <h2 class="my-logo">My logo</h2>
+      <button  type="button" id="menu-bar"><i class="fa fa-bars"></i></button>
       <nav class="nav">
-        <h2 class="my-logo">My logo</h2>
-        <img src="assets/Unionnavbar.png" alt="nav-bar" class="navbar">
         <ul class="nav-list">
-          <li class="nav-item1">Portfolio</li>
-          <li class="nav-item2">About</li>
-          <li class="nav-item3">Contact</li>
+          <li class="nav-item1"><a href="#"></a>Portfolio</li>
+          <li class="nav-item2"><a href="#"></a>About</li>
+          <li class="nav-item3"><a href="#"></a>Contact</li>
         </ul>
       </nav>
+      <!--------------------------Nav for mobile-------------->
+      <div class="mobile-menu-bar" id="mobile-menu">
+        <div class="menu-header">
+          <span class="close-btn">&times;</span>
+      </div>
+      <div class="menu-body">
+          <ul>
+              <li><a href="#work-id">Portfolio</a></li>
+              <li><a href="#about-id">About</a></li>
+              <li><a href="#contact-id">Contact</a></li>
+          </ul>
+      </div>
+      </div>
     </header>  
-    <main class="container">
+    <main class="container" >
       <div class="bg">
       <section class="home-page">
         <h1 class="greet">
@@ -59,7 +72,7 @@
           <li><a href="#"><img src="assets/Vector.png" alt="angelist"></a></li>    
         </ul>
       </section></div>
-      <section class="work">
+      <section class="work" id="work-id">
         <div class="project-container" id="project_1">
           <div class="work-img">
             <img src="assets/Snapshoot Portfolio.png" alt="work-card">
@@ -158,6 +171,7 @@
           </div>
       </div>
       </section>
+      <!---------------------------end of work section -------------------->
       <!----------------------------Desktop--------------------------------->
       <div class="desktop-work">
         <div class="desktop_projects" id="desktop_1">
@@ -270,7 +284,7 @@
         </div>
       </div>
         <!--------------------------------------------------------------------->
-      <section class="aboutme_container">
+      <section class="aboutme_container" id="about-id">
         <div class="grid_item1">
         <p class="about_me" id="about_me">About<br>Myself</p>
         <p class="intro_2">
@@ -308,7 +322,7 @@
         <div class="grid_item2">
           <ul class="skills">
               <ul class="languages"> 
-                <li><p>Languages</p></li>
+                <li id="lang-txt"><p>Languages</p></li>
                 <li class="arrow"><img src="assets/Unionlangs.png" alt=""></li>
               </ul>
               <div class="langs_list">
@@ -344,7 +358,7 @@
         </div>
       </section>
     </main>
-    <footer class="contact-container">
+    <footer class="contact-container" id="contact-id">
       <div class="contact-bg">
       <div class="contacts">Contact me</div>
       <div class="contacts-txt">
@@ -372,5 +386,6 @@
       </form>
     </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
