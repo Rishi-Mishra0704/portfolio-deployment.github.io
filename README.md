@@ -86,7 +86,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using: <a href="https://rishi-mishra0704.github.io/portfolio-deployment.github.io/">This link</a>
+You can deploy this project using: <a href="#">This link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
