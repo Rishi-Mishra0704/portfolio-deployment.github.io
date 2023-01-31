@@ -7,6 +7,7 @@ menubtn.onclick = function display () {
   menu.style.display = 'block'
   main.style.filter = 'blur(8px)'
   menubtn.style.display = 'none'
+  menu.style.position = 'fixed'
 }
 
 closebar.onclick = function close () {
