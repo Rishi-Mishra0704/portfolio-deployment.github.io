@@ -2,6 +2,7 @@ const menu = document.getElementById('mobile-menu')
 const menubtn = document.getElementById('menu-bar')
 const closebar = document.getElementsByClassName('close-btn')[0]
 const main = document.querySelector('.bg')
+
 menubtn.onclick = function display () {
   menu.style.display = 'block'
   main.style.filter = 'blur(8px)'
@@ -21,4 +22,6 @@ window.onclick = function exit (event) {
 
 menu.onclick = function close () {
   menu.style.display = 'none'
+  main.style.filter = 'blur(0)'
+  menubtn.style.display = 'block'
 }
