@@ -1,8 +1,10 @@
+/* -------------Getting Elements from html and css------------------- */
 const menu = document.getElementById('mobile-menu')
 const menubtn = document.getElementById('menu-bar')
 const closebar = document.getElementsByClassName('close-btn')[0]
 const main = document.querySelector('.bg')
 
+/* -------------------------------Making Navbar----------------------------- */
 menubtn.onclick = function display () {
   menu.style.display = 'block'
   main.style.filter = 'blur(8px)'
