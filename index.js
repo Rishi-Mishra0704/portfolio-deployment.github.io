@@ -220,3 +220,5 @@ contactForm.addEventListener('submit', (event) => {
     contactForm.submit()
   }
 })
+/* -----------------Validation contact form ends here ------------------- */
+/
