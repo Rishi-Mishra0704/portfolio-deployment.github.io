@@ -16,8 +16,8 @@ const workInfo = [
     techs: ['html', 'css', 'javascript'],
     techStack: ['github', 'ruby', 'bootstrap'],
     projectDetails: { company: 'CANOPY', position: 'Back END Dev', year: 2015 },
-    seeLive: 'https://muhammadusmanaslam.github.io/Portfolio/',
-    seeSource: 'https://github.com/MuhammadUsmanAslam/Portfolio'
+    seeLive: '#',
+    seeSource: '#'
   },
   {
     key: 1,
@@ -28,8 +28,8 @@ const workInfo = [
     techs: ['html', 'css', 'javascript'],
     techStack: ['github', 'ruby', 'bootstrap'],
     projectDetails: { company: 'Facebook', position: 'Full-Stack Dev', year: 2017 },
-    seeLive: 'https://muhammadusmanaslam.github.io/Portfolio/',
-    seeSource: 'https://github.com/MuhammadUsmanAslam/Portfolio'
+    seeLive: '#',
+    seeSource: '#'
   },
   {
     key: 2,
@@ -40,8 +40,8 @@ const workInfo = [
     techs: ['html', 'css', 'javascript'],
     techStack: ['github', 'ruby', 'bootstrap'],
     projectDetails: { company: 'Facebook', position: 'Full-Stack Dev', year: 2017 },
-    seeLive: 'https://muhammadusmanaslam.github.io/Portfolio/',
-    seeSource: 'https://github.com/MuhammadUsmanAslam/Portfolio'
+    seeLive: '#',
+    seeSource: '#'
   },
   {
     key: 3,
@@ -52,8 +52,8 @@ const workInfo = [
     techs: ['html', 'css', 'javascript'],
     techStack: ['github', 'ruby', 'bootstrap'],
     projectDetails: { company: 'Uber', position: 'Lead Developer', year: 2017 },
-    seeLive: 'https://muhammadusmanaslam.github.io/Portfolio/',
-    seeSource: 'https://github.com/MuhammadUsmanAslam/Portfolio'
+    seeLive: '#',
+    seeSource: '#'
   }
 ]
 workInfo.forEach((work, index) => {
