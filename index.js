@@ -121,9 +121,8 @@ workInfo.forEach((work, index) => {
               <div class = "second-stack">${secondStack}</div>  
             </ul>
             <div class='detail-card-body-right-button-container'>
-                <button class='detail-card-button button' src='${work.seeLive}'>See Live <i
-                        class='fa fa-solid fa-arrow-up-right-from-square'></i></button>
-                <button class='detail-card-button button'  src='${work.seeSource}'>See Source <i class=' fa fa-brands fa-github'></i></button>
+                <button class='detail-card-button button' src='${work.seeLive}'>See Live <img src = "./assets/Icon.svg"></button>
+                <button class='detail-card-button button'  src='${work.seeSource}'>See Source <i class=' fa fa-brands fa-github git'></i></button>
             </div>
         </div>
     </div>

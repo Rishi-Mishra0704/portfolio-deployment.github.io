@@ -253,10 +253,11 @@ body {
 
 .works-card > img {
   justify-content: left;
-  width: 40%;
-  margin-right: 3%;
+  margin-right: 2%;
 }
-
+.work-img {
+  width: 100%;
+}
 .langs_1 {
   width: 20%;
 }
@@ -384,8 +385,8 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 1em;
   justify-content: center;
-  margin: 10%;
-  padding: 1em;
+  margin: 4% 5%;
+  padding: 1.5% 3%;
 }
 
 .detail-card-header {
@@ -416,7 +417,7 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 2em 0;
+  margin: 5px 0 -3px 0;
 }
 
 .detail-card-display-img-container > img {
@@ -435,16 +436,20 @@ body {
   flex-direction: row;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   color: #253858;
+  padding-top: -10%;
 }
 
 .detail-card-body-tags {
   margin: 0.25em 0;
   list-style-type: none;
   color: #6070ff;
+  width: 90%;
 }
-
+.git {
+  font-size: 19px;
+}
 .second-stack {
   display: none;
 }
@@ -458,6 +463,8 @@ body {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+
+  float: left;
 }
 
 .detail-card-body-right-button-container {
@@ -1175,6 +1182,8 @@ form {
   }
   .detail-card {
     flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
 
   .detail-card-body {
@@ -1192,7 +1201,9 @@ form {
   .detail-card-button {
     min-width: 139px;
   }
-
+  .paragraph {
+    font-size: 20px;
+  }
   .first-stack {
     display: flex;
     flex-direction: row;
