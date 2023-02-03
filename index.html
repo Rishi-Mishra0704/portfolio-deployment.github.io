@@ -163,7 +163,7 @@
         that you need to build or a project that needs
         coding .<br> I'd love to help with it 
       </div>
-      <form  action="https://formspree.io/f/xzbqzvgj" method="POST">
+      <form  action="https://formspree.io/f/xzbqzvgj" method="POST" id="form">
         <ul class="contact-form">
           <li class="name-form">
             <label for="name"></label>
@@ -178,7 +178,10 @@
             <textarea id="msg" name="message" placeholder="Message" maxlength="500" required></textarea>
           </li>
         </ul>
+        <div class="button-error">
         <button type="submit" class="button" id="form-submit">Get in touch</button>
+        <div id="error" class="error-msg-hidden"></div>
+      </div>
       </form>
     </div>
     </footer>
