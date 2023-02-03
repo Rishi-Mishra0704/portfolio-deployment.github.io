@@ -716,7 +716,22 @@ form {
   height: 140px;
   padding: 5px;
 }
-
+.button-error{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+#error{ 
+  height: 50%;
+  margin-top: 25px;
+  font-weight: 700;
+  font-family: "Poppins",sans-serif;
+  background-color: white;
+  color: #6070ff;
+  font-size: 14px;
+  padding: 0 5px;
+}
 /* ---------------------------Desktop styles------------------------------ */
 @media screen and (min-width: 760px) {
   /* ------ Navbar ------- */
@@ -1181,7 +1196,7 @@ form {
 
   #form-submit {
     border: 2px solid #6070ff;
-    margin: 6px 42% 0 44%;
+    margin: 6px  0 ;
   }
 
   .detail-card {
@@ -1218,5 +1233,30 @@ form {
   .second-stack {
     display: flex;
     flex-direction: row;
+  }
+  .error-msg-hidden {
+    display: none;
+  }
+
+  .contact-me-form-error-msg-display {
+    display: inline;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 0.5em;
+  }
+  .button-error{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  #error{ 
+    margin-top: 3px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+    padding: 1% 0.5% ;
+    background-color: white;
+    color: #6070ff;
+    font-size: 14px;
   }
 }

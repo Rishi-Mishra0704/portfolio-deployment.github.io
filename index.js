@@ -203,3 +203,20 @@ menu.onclick = function close () {
   main.style.filter = 'blur(0)'
   menubtn.style.display = 'block'
 }
+/* -----------------Validation contact form ------------------- */
+const contactForm = document.getElementById('form')
+const error = document.getElementById('error')
+const emailRegex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/
+
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault()
+
+  if (!emailRegex.test(contactForm.elements.email.value.trim())) {
+    error.innerText = 'Form not Sent !! \n Please enter your email in lower case.'
+    error.classList.add('contact-me-form-error-msg-display')
+  } else {
+    error.innerText = ''
+    error.className = 'error-msg-hidden'
+    contactForm.submit()
+  }
+})
