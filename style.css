@@ -716,22 +716,25 @@ form {
   height: 140px;
   padding: 5px;
 }
-.button-error{
+
+.button-error {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
-#error{ 
+
+#error {
   height: 50%;
   margin-top: 25px;
   font-weight: 700;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: white;
   color: #6070ff;
   font-size: 14px;
   padding: 0 5px;
 }
+
 /* ---------------------------Desktop styles------------------------------ */
 @media screen and (min-width: 760px) {
   /* ------ Navbar ------- */
@@ -1196,7 +1199,7 @@ form {
 
   #form-submit {
     border: 2px solid #6070ff;
-    margin: 6px  0 ;
+    margin: 6px  0;
   }
 
   .detail-card {
@@ -1234,6 +1237,7 @@ form {
     display: flex;
     flex-direction: row;
   }
+
   .error-msg-hidden {
     display: none;
   }
@@ -1244,17 +1248,19 @@ form {
     font-weight: 600;
     margin-left: 0.5em;
   }
-  .button-error{
+
+  .button-error {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
   }
-  #error{ 
+
+  #error {
     margin-top: 3px;
     font-weight: 700;
-    font-family: "Poppins",sans-serif;
-    padding: 1% 0.5% ;
+    font-family: "Poppins", sans-serif;
+    padding: 1% 0.5%;
     background-color: white;
     color: #6070ff;
     font-size: 14px;

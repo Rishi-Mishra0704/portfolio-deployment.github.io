@@ -221,4 +221,3 @@ contactForm.addEventListener('submit', (event) => {
   }
 })
 /* -----------------Validation contact form ends here ------------------- */
-/
